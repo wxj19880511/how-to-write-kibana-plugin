@@ -16,7 +16,7 @@ cd kibana
 npm install 
 
 # if java not installed, for OSX pls (brew cask install java)
-npm install elasticsearch
+npm run elasticsearch
 
 # cd kibana source folder
 npm start
