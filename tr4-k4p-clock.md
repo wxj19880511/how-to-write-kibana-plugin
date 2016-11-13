@@ -97,7 +97,8 @@ module.exports = function(kibana) {
 });
 ```
 ## public/clock-editor
-- ng-model is a lab of Angularjs and for two way data bing
+- ng-model is a lab of Angularjs and for two way data bing so that any change from the web side will reflect the 
+value to "vis.params.format" and also any change for "vis.param.format" will be watched by ie and refresh. 
 
 ```html
 <div class="form-group">
@@ -107,6 +108,8 @@ module.exports = function(kibana) {
 ```
 
 ## public/clock.html
+- Get the time ($scope.time) and then formated by date according to the time format required by user (user changed 
+this format value and it stored in variable "vis.params.format")
 
 ```html
 <div class="clockVis" ng-controller="ClockController">
