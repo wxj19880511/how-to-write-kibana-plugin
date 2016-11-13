@@ -14,6 +14,8 @@
 git clone https://github.com/elastic/kibana
 cd kibana
 npm install 
+
+# if java not installed, pl
 npm install elasticsearch
 
 # cd kibana source folder
@@ -48,15 +50,12 @@ bin/kibana plugin --install plugin-name -u https://git-url/plugin
 ```
 
 ### Three kinds plugins
-
-
-
+- visType
+- apps
+- fieldFormats
 
 ## D3 plugin
 - https://www.elastic.co/blog/data-visualization-elasticsearch-aggregations
 
 
 ## Highcharts plugin
-- visType
-- apps
-- fieldFormats
