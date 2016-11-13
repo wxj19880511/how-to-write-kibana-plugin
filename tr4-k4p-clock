@@ -1,6 +1,6 @@
 # The file tree
 
-```json
+```bash
 kevinwandeMacBook-Pro:plugins kevinwan$ tree tr-k4p-clock/
 tr-k4p-clock/
 ├── index.js
@@ -11,3 +11,8 @@ tr-k4p-clock/
     ├── clock.html
     └── clock.js
 ```
+
+# Part 1
+If you want's to know index.js, package.json pls go to README.md
+
+# Part 2 - plblic
