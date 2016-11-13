@@ -46,6 +46,9 @@ module.exports = function(kibana) {
 ## public/index.js
 - First get kibana plugin "tr-k4p-clock" module object 
 - Then define a Angularjs controller. Angularjs controller controls how the html int it's scope will be phrased by IE.
+- All JavaScript files in the public folder of your plugin should be RequireJS (AMD) modules and must be wrapped in define(function(require) { ... }).
+
+
   
 ```js
  // Create an Angular module for this plugin
@@ -92,5 +95,22 @@ module.exports = function(kibana) {
     return ClockProvider;
 
 });
-
 ```
+## public/clock-editor
+- ng-model is a lab of Angularjs and for two way data bing
+
+```html
+<div class="form-group">
+        <label>Time Format</label>
+        <input type="text" ng-model="vis.params.format" class="form-control">
+</div>
+```
+
+## public/clock.html
+
+```html
+<div class="clockVis" ng-controller="ClockController">
+        {{ time | date:vis.params.format }}
+</div>bash-3.2$ 
+```
+
