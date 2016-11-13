@@ -41,7 +41,15 @@ module.exports = function(kibana) {
 };
 ```
 
-###
+### Install plugin
+
+```bash
+bin/kibana plugin --install plugin-name -u https://git-url/plugin
+```
+
+### Three kinds plugins
+
+
 
 
 ## D3 plugin
@@ -49,3 +57,6 @@ module.exports = function(kibana) {
 
 
 ## Highcharts plugin
+- visType
+- apps
+- fieldFormats
