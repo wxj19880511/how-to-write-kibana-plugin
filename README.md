@@ -27,12 +27,9 @@ npm run elasticsearch
 │ 9200 │ master@23a271f (built 6 days ago) │ 2kk-UAh   │
 └──────┴───────────────────────────────────┴───────────┘
 
-# cd kibana src folder
+# cd kibana src folder, npm start and then kibana will start up listen in port 5601 which you can visit
 npm start
 ```
-
-
-
 
 ## Write simplest plugin
 ### Every plugin is a npm module. So it needs at least two files
@@ -66,8 +63,11 @@ bin/kibana plugin --install plugin-name -u https://git-url/plugin
 - apps
 - fieldFormats
 
+## Simple visType plugin 
+- [tr4-k4p-clock.md](https://github.com/wxj19880511/how-to-write-kibana-plugin/blob/master/tr4-k4p-clock.md)
+- Very basic and quite well for understand how to write kibana plugin
+
+
 ## D3 plugin
 - https://www.elastic.co/blog/data-visualization-elasticsearch-aggregations
 
-
-## Highcharts plugin
