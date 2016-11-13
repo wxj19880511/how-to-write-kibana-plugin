@@ -15,7 +15,7 @@ git clone https://github.com/elastic/kibana
 cd kibana
 npm install 
 
-# if java not installed, pl
+# if java not installed, for OSX pls (brew cask install java)
 npm install elasticsearch
 
 # cd kibana source folder
