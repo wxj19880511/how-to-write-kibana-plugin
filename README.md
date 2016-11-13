@@ -67,7 +67,6 @@ bin/kibana plugin --install plugin-name -u https://git-url/plugin
 - [tr4-k4p-clock.md](https://github.com/wxj19880511/how-to-write-kibana-plugin/blob/master/tr4-k4p-clock.md)
 - Very basic and quite well for understand how to write kibana plugin
 
-
 ## D3 plugin
 - https://www.elastic.co/blog/data-visualization-elasticsearch-aggregations
 
